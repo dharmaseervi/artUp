@@ -1,0 +1,210 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+
+.backgroung-img img {
+    width: 1425px;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.container {
+    border: 2px solid black;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 550px;
+    top: 250px;
+    background-color: white;
+    border-radius: 15px;
+    background: rgba(13, 13, 13, 0.502);
+    backdrop-filter: blur(5px);
+}
+
+.banner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 317px;
+    text-transform: uppercase;
+    left: -2px;
+    font-size: 30px;
+    font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px 15px 0px 0px;
+    color: white;
+}
+
+
+
+
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 270px;
+    text-transform: uppercase;
+    left: 102px;
+    font-size: 13px;
+    font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+}
+
+.username {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+
+}
+
+.username input {
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: rgba(15, 15, 15, 0.801);
+}
+
+.pass {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+
+.pass input {
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+
+    border: 2px solid white;
+    background-color: rgba(15, 15, 15, 0.801);
+
+}
+
+.btn {
+
+    background-color: #ededed;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 32px;
+    font-size: 10px;
+    list-style: none;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 265px;
+    top: 290px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    background-color: rgba(15, 15, 15, 0.801);
+    
+}
+
+.btn a {
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: white;
+
+}
+
+.btn-1 {
+
+    background-color: #ededed;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 32px;
+    font-size: 10px;
+    list-style: none;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 30px;
+    top: 290px;
+    text-transform: uppercase;
+    width: 220px;
+    border: 2px solid white;
+    background-color: rgba(15, 15, 15, 0.801);
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    font-weight: 700;
+
+
+}
+
+.btn-1:hover {
+    background-color: #fff;
+    color: white;
+
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+    /* Firefox */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    align-items: center;
+}
+
+
+
+input::placeholder {
+    text-align: center;
+
+}
+
+::placeholder {
+    color: white;
+
+
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+input, textarea {
+    color: #fff;
+}
+.signUp{
+    color: #fff;
+    position: absolute;
+    left: 20%;
+    bottom: 8%;
+    font-family: proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.signUp a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.signUp a:hover {
+    color: #000;
+}
